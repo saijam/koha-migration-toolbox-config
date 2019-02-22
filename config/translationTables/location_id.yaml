@@ -1,47 +1,92 @@
-##  branchLoc-sulkujen väliin tulee alla olevan rivin mukaiset sijainnit kohassa, pilkulla eroteltuna, samalla tavalla kuin _DEFAULT_ rivillä.
+##  branchLoc-sulkujen vÃ¤liin tulee alla olevan rivin mukaiset sijainnit kohassa, pilkulla eroteltuna, samalla tavalla kuin _DEFAULT_ rivillÃ¤.
 ##  branchcode, shelving_location, collection_code, sub_location, item.itemtype, item.notforloan-status
 
-1:  branchLoc(POIS)		#REVIEW    #REVIEW
-+REVIEW: ref(1)
-13: branchLoc(POIS)		#t-mono    #zt-monografi
-+t-mono: ref(13)
-14: branchLoc()		#v-exarb   #v-examensarbete
-+v-exarb: ref(14)
-15: branchLoc()		#v-hand    #v-handbiblioteket
-+v-hand: ref(15)
-16: branchLoc()		#v-mono    #v-monografi
-+v-mono: ref(16)
-17: branchLoc()		#v-inst    #v-institutionsexemplar
-+v-inst: ref(17)
-18: branchLoc()		#v-lager   #v-lager
-+v-lager: ref(18)
-19: branchLoc()		#v-ref     #v-referens
-+v-ref: ref(19)
-20: branchLoc()		#v-av      #v-AV-material
-+v-av: ref(20)
-25: branchLoc(POIS)		#T-LANEDISK#zt-lånedisk
-+T-LANEDISK: ref(25)
-24: branchLoc(POIS)		#H-LANEDISK#zh-lånedisk
-+H-LANEDISK: ref(24)
-26: branchLoc(POIS)		#V-KATAL   #v-katalogisering
-+V-KATAL: ref(26)
-27: branchLoc()		#V-LANEDISK#Lånedisken
-+V-LANEDISK: ref(27)
-28: branchLoc()		#SELF      #låneautomaten
-+SELF: ref(28)
-29: branchLoc()		#v-kurs    #v-kursbok
-+v-kurs: ref(29)
-34: branchLoc()		#MAKSU     #Verkkomaksaminen
-+MAKSU: ref(34)
-31: branchLoc()		#v-ebok    #v-elektronisk bok
-+v-ebok: ref(31)
-30: branchLoc()		#v-video   #v-video
-+v-video: ref(30)
-32: branchLoc()		#v-tidskr  #v-tidskrift
-+v-tidskr: ref(32)
-33: branchLoc()		#v-etidskr #Elektronisk tidskrift
-+v-etidskr: ref(33)
-35: branchLoc()		#v-databas #v-databas
-+v-databas: ref(35)
+38: branchLoc()		#AVSKRIV	,AVSKRIVNING
++AVSKRIV: ref(38)
+43: branchLoc()		#TEXTLABBET	,TEXTLABBET
++TEXTLABBET: ref(43)
+42: branchLoc()		#DATABASER	,DATABASER
++DATABASER: ref(42)
+36: branchLoc()		#AVHARKIV	,AVHARKIV
++AVHARKIV: ref(36)
+37: branchLoc()		#EBOK2		,EBOK2
++EBOK2: ref(37)
+40: branchLoc()		#BETALNING	,Natbetalning
++BETALNING: ref(40)
+2:  branchLoc()		#TIDSKRIFT	,TIDSKRIFT
++TIDSKRIFT: ref(2)
+3:  branchLoc()		#SERIER		,SERIER
++SERIER: ref(3)
+4:  branchLoc()		#AVHNYA		,AVHNYA
++AVHNYA: ref(4)
+5:  branchLoc()		#AVHGAMLA	,AVHGAMLA
++AVHGAMLA: ref(5)
+7:  branchLoc()		#MONOLASE	,MONOLASE
++MONOLASE: ref(7)
+6:  branchLoc()		#MONOGRAFI	,MONOGRAFI
++MONOGRAFI: ref(6)
+9:  branchLoc()		#KURSHEM	,KURSHEM
++KURSHEM: ref(9)
+10: branchLoc()		#KURSLASE	,KURSLASE
++KURSLASE: ref(10)
+11: branchLoc()		#BIBLIOGRAF	,BIBLIOGRAF
++BIBLIOGRAF: ref(11)
+12: branchLoc()		#ZEKONPOL	,ZEKONPOL
++ZEKONPOL: ref(12)
+13: branchLoc()		#ZFINEKON	,ZFINEKON
++ZFINEKON: ref(13)
+14: branchLoc()		#ZHANDELSR	,ZHANDELSR
++ZHANDELSR: ref(14)
+15: branchLoc()		#ZMARKGEO	,ZMARKGEO
++ZMARKGEO: ref(15)
+16: branchLoc()		#ZNATEKON	,ZNATEKON
++ZNATEKON: ref(16)
+17: branchLoc()		#ZREDOVISN	,ZREDOVISN
++ZREDOVISN: ref(17)
+18: branchLoc()		#ZSPRAK		,ZSPRAK
++ZSPRAK: ref(18)
+19: branchLoc()		#ZSTATISTIK	,ZSTATISTIK
++ZSTATISTIK: ref(19)
+20: branchLoc()		#ZINFOBEH	,ZINFOBEH
++ZINFOBEH: ref(20)
+21: branchLoc()		#ZDATACENTR	,ZDATACENTR
++ZDATACENTR: ref(21)
+22: branchLoc()		#ZFORVALTN	,ZFORVALTN
++ZFORVALTN: ref(22)
+23: branchLoc()		#ZFLO		,ZFLO
++ZFLO: ref(23)
+24: branchLoc()		#ZFORSKINT	,ZFORSKINT
++ZFORSKINT: ref(24)
+25: branchLoc()		#VASA		,VASA
++VASA: ref(25)
+1:  branchLoc()		#ZDUMMY		,ZDUMMY
++ZDUMMY: ref(1)
+26: branchLoc()		#LANEDISK	,Service Desk
++LANEDISK: ref(26)
+27: branchLoc()		#rosk		,rosk
++rosk: ref(27)
+28: branchLoc()		#acq		,Anskaffning
++acq: ref(28)
+29: branchLoc()		#AVHHEMLIG	,AVHHEMLIGA
++AVHHEMLIG: ref(29)
+31: branchLoc()		#SELF		,Lï¿½neutomaten
++SELF: ref(31)
+30: branchLoc()		#ELEKTRON	,ELEKTRON
++ELEKTRON: ref(30)
+8:  branchLoc()		#REFERENS	,REFERENS
++REFERENS: ref(8)
+32: branchLoc()		#EGNASERIER	,EGNASERIER
++EGNASERIER: ref(32)
+33: branchLoc()		#AABOCKER	,ï¿½A Bï¿½CKER
++AABOCKER: ref(33)
+34: branchLoc()		#EBOK		,EBOK
++EBOK: ref(34)
+35: branchLoc()		#INFOBITEN	,INFOBITEN
++INFOBITEN: ref(35)
+39: branchLoc()		#MOTESRUM	,MOTESRUM
++MOTESRUM: ref(39)
+41: branchLoc()		#LJUDBOK	,LJUDBOK
++LJUDBOK: ref(41)
 
-_DEFAULT_: branchLoc(KONVERSIO,KONVERSIO,ERROR,ERROR) #Oletusarvot / paikkaansa löytämättömät
+_DEFAULT_: branchLoc(KONVERSIO, KONVERSIO, KONVERSIO, KONVERSIO) #Oletusarvot / paikkaansa lÃ¶ytÃ¤mÃ¤ttÃ¶mÃ¤t
+
