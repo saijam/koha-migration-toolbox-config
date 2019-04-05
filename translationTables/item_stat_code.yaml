@@ -7,41 +7,47 @@
 ## it defines mappings from Voyager.item_stats.item_stat_id types to koha.items.ccode
 ##
 
+##SIIRTOSÄÄNNÖT:
+## : tähän mapataan uusi arvo Kohassa esim. Voyager arvo 1: Koha-arvo 28vrk
+## : " " = voi jättää siirtämättä, Voyagerissa olevan arvon ei tarvitse näkyä Kohassa
+## : DELETED = voi poistaa, ei sisällä niteitä, asiakkaita
+## : KONVERSIO= ei pitäisi sisältää Voyagerissa mitään, mutta halutaan tarkistaa konversion jälkeen
+
 #Voyager.ITEM_STAT_CODE
 #ITEM_STAT_ID,          ITEM_STAT_CODE,      #ITEM_STAT_CODE_DESC
-EVO: '' # XEVTEK ostetut (EI KÄYT.)
-MBS: '' # Mercuriasta Myyrmäkeen
-EVI: '' # XEVTEK ilmaiset (EI KÄYT.
-SV: '' #  XStadia vanhat (EI KÄYT.)
-EV: '' #  XEVTEK vanhat (EI KÄYT.)
-AT0: '' # Agricolank. Tikkurilaan
-AL2: '' # Agricolank. Laureaan 2
-AL1: '' # Agricolank. Laurea1
-MO: '' #  Metropolia ostetut                                                                                                                                                           
-MI: '' #  Metropolia ilmaiset
-LT1: '' # Laureasta Tikkurilaan
-OM: '' #  Metropolia opinnäytetyöt
-SO: '' #  Sofianlehdosta Tukholmank
-TU: '' #  Tukholmankadulta Sofianle
-AM: '' #  Agricolank. Myyrmäkeen
-MB: '' #  Myyrmäestä Bulevardille
-OL: '' #  Onnentieltä Leiritielle
-TA: '' #  Tikkurilasta Agrille
-MT: '' #  Manskulta Tukholle
-MV: '' #  Manskulta Viertotielle
-MK: '' #  Manskulta käsikirjastoon
-BM: '' #  Bulelta Myrtsiin                                                                                                                                                             
-BS: '' #  Bulelta Soffariin
-BT: '' #  Bulelta Tiksiin
-BL: '' #  Bulelta Lepuskiin
-AB: '' #  Bulelle takaisin
-BTU: '' # Bulelta tukholle
-ML: '' #  Myyrmäestä Leppävaaraan
-AR: '' #  Arabian kampukselle
-PJO: '' # PJK ostetut
-PJI: '' # PJK ilmaiset
-PJK: '' # PJK
-MY: '' #  Myllypuro
-LE: '' #  Leppävaara
+EVO: '' # XEVTEK ostetut (EI KÄYT.) VOI JÄTTÄÄ SIIRTÄMÄTTÄ
+MBS: '' # Mercuriasta Myyrmäkeen VOI JÄTTÄÄ SIIRTÄMÄTTÄ
+EVI: '' # XEVTEK ilmaiset (EI KÄYT.) VOI JÄTTÄÄ SIIRTÄMÄTTÄ
+SV: '' #  XStadia vanhat (EI KÄYT.) VOI JÄTTÄÄ SIIRTÄMÄTTÄ
+EV: '' #  XEVTEK vanhat (EI KÄYT.) VOI JÄTTÄÄ SIIRTÄMÄTTÄ
+AT0: '' # Agricolank. Tikkurilaan VOI JÄTTÄÄ SIIRTÄMÄTTÄ
+AL2: '' # Agricolank. Laureaan 2 VOI JÄTTÄÄ SIIRTÄMÄTTÄ
+AL1: '' # Agricolank. Laurea1 VOI JÄTTÄÄ SIIRTÄMÄTTÄ
+MO: '' #  Metropolia ostetut VOI JÄTTÄÄ SIIRTÄMÄTTÄ                                                                                                                                                           
+MI: '' #  Metropolia ilmaiset VOI JÄTTÄÄ SIIRTÄMÄTTÄ
+LT1: '' # Laureasta Tikkurilaan VOI JÄTTÄÄ SIIRTÄMÄTTÄ
+OM: '' #  Metropolia opinnäytetyöt VOI JÄTTÄÄ SIIRTÄMÄTTÄ
+SO: '' #  Sofianlehdosta Tukholmank VOI JÄTTÄÄ SIIRTÄMÄTTÄ
+TU: '' #  Tukholmankadulta Sofianle VOI JÄTTÄÄ SIIRTÄMÄTTÄ
+AM: '' #  Agricolank. Myyrmäkeen VOI JÄTTÄÄ SIIRTÄMÄTTÄ
+MB: '' #  Myyrmäestä Bulevardille VOI JÄTTÄÄ SIIRTÄMÄTTÄ
+OL: '' #  Onnentieltä Leiritielle VOI JÄTTÄÄ SIIRTÄMÄTTÄ
+TA: '' #  Tikkurilasta Agrille VOI JÄTTÄÄ SIIRTÄMÄTTÄ
+MT: '' #  Manskulta Tukholle VOI JÄTTÄÄ SIIRTÄMÄTTÄ
+MV: '' #  Manskulta Viertotielle VOI JÄTTÄÄ SIIRTÄMÄTTÄ
+MK: '' #  Manskulta käsikirjastoon VOI JÄTTÄÄ SIIRTÄMÄTTÄ
+BM: '' #  Bulelta Myrtsiin VOI JÄTTÄÄ SIIRTÄMÄTTÄ                                                                                                                                                            
+BS: '' #  Bulelta Soffariin VOI JÄTTÄÄ SIIRTÄMÄTTÄ
+BT: '' #  Bulelta Tiksiin VOI JÄTTÄÄ SIIRTÄMÄTTÄ
+BL: '' #  Bulelta Lepuskiin VOI JÄTTÄÄ SIIRTÄMÄTTÄ
+AB: '' #  Bulelle takaisin VOI JÄTTÄÄ SIIRTÄMÄTTÄ
+BTU: '' # Bulelta tukholle VOI JÄTTÄÄ SIIRTÄMÄTTÄ
+ML: '' #  Myyrmäestä Leppävaaraan VOI JÄTTÄÄ SIIRTÄMÄTTÄ
+AR: '' #  Arabian kampukselle 
+PJO: PJK # PJK ostetut
+PJI: PJK # PJK ilmaiset
+PJK: PJK # PJK
+MY: '' #  Myllypuro VOI JÄTTÄÄ SIIRTÄMÄTTÄ
+LE: 'KAR' # Leppävaara, Karamalmille tulevat evakkoaineistot 
 
 _DEFAULT_: warning()
